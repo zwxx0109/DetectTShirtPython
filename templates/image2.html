@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <!-- 標題名稱 -->
+    <h1>{{titleName}}</h1>
+    <div class="bd-example">
+
+        <ul>
+            <!-- 加-表示不會有空格 -->
+            {%- for image in imageResult -%}
+
+            <!-- 整理資料夾裡面的圖片找出屬於他的照片名稱(一個公寓概念) -->
+            <li><img src={{image}}/></li>
+            {% endfor %}
+        </ul>
+
+            
+
+
+
+    </div>
+</body>
+
+</html>
